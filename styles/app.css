@@ -109,6 +109,8 @@ h1 {
   margin-bottom: 1em;
   font-size: var(--font-size-2xl);
   text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -4px;
 }
 
 main {
@@ -117,8 +119,10 @@ main {
 
 .demo__list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .demo__item {
@@ -130,7 +134,6 @@ main {
   align-items: center;
   height: 250px;
   width: 250px;
-  margin: 0 10px;
   border-radius: 10px;
 }
 .demo__item:first-of-type {
